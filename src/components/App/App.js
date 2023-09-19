@@ -1,6 +1,7 @@
 import React from "react";
-import Counter from "./Counter";
-import EpisodeBrowser from "./EpisodeBrowser";
+import Counter from "../Counter/Counter";
+import EpisodeBrowser from "../Episode/EpisodeBrowser";
+import PokemonBrowser from "../PokemonBrowser";
 
 export default function App()
 {
