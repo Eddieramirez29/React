@@ -5,7 +5,7 @@ import Pokemon from "./Pokemon";
 export default function PokemonBrowser() {
     const [pokemon, setPokemon] = useState(0);
     const [pokemons, setPokemons] = useState([]);
-    const [activePokemon, setActivePokemon] = useState({});
+    const [activePokemon, setActivePokemon] = useState({});//Se dice que vamos a usar un json {}
 
     useEffect(() => {
         const pokemonsNames = ["bulbasaur", "charmander", "squirtle", "pikachu"];
